@@ -1,0 +1,97 @@
+h1 {
+  text-align: center;
+  font-size: 3em;
+  border-style: solid;
+  margin-left: 15em;
+  margin-right: 15em;
+  margin-bottom: 3em;
+  color: black;
+  border-radius: .3em;
+}
+
+button {
+  background-color: rgba(250, 100, 150, 0.6);
+  font-size: 1.5em;
+  text-align: center;
+  color: black;
+}
+
+span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /* edit: added z-index */
+  
+  z-index: 1;
+  /* edit: fixes overlap error in IE7/8, 
+     make sure you have an empty gif */
+  
+  background-image: url('empty.gif');
+}
+
+.buttonBG {
+  background-color: rgba(250, 100, 150, 1);
+}
+
+body {
+  background: no-repeat center center fixed -webkit-linear-gradient(rgba(150, 30, 50, 0.8), rgba(300, 120, 0, 0.6), rgba(100, 0, 80, 0.6));
+  /* For Safari 5.1 to 6.0 */
+  
+  background: no-repeat center center fixed -o-linear-gradient(rgba(150, 30, 50, 0.8), rgba(300, 120, 0, 0.6), rgba(100, 0, 80, 0.6));
+  /* For Opera 11.1 to 12.0 */
+  
+  background: no-repeat center center fixed -moz-linear-gradient(rgba(150, 30, 50, 0.8), rgba(300, 120, 0, 0.6), rgba(100, 0, 80, 0.6));
+  /* For Firefox 3.6 to 15 */
+  
+  background: no-repeat center center fixed linear-gradient(rgba(150, 30, 50, 0.8), rgba(300, 120, 0, 0.6), rgba(100, 0, 80, 0.6));
+  overflow: hidden;
+}
+
+.usersContainer {
+  border-style: solid;
+  margin-left: 50em;
+  margin-right: 50em;
+  background-color: rgba(200, 200, 200, 0.8);
+}
+
+.specificUser {
+  text-align: left;
+  padding-left: 2em;
+  color: black;
+  font-size: 1.5em;
+  position: relative;
+}
+
+.specificUserBG {
+  background-color: rgba(250, 100, 150, 1);
+}
+
+.searchBar {
+  text-align: left;
+  color: black;
+  font-size: 1.5em;
+}
+
+.searchDiv {
+  margin-left: 50em;
+  margin-right: 50em;
+}
+
+.hide {
+  display: none;
+}
+
+.onlineOfflineImg {
+  width: 1em;
+  margin-right: 1em;
+}
+
+.streamContent {
+  text-align: left;
+  padding-left: 3em;
+  color: black;
+  font-size: 1em;
+  margin-bottom: .5em;
+}
